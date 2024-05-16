@@ -46,7 +46,6 @@ public:
 	}
 	void printInfo(double w, double h)
 	{
-		
 		n_cm = w;
 		n_length = h;
 
@@ -80,14 +79,11 @@ public:
 
 	void printInfo(int w, int h) //오버 로딩
 	{
-	
 		n_cm = w;
 		n_height = h;
 
 		Shape::printInfo();
 		Triarea();
-	
-
 	}
 };
 
