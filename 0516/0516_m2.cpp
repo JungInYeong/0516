@@ -77,7 +77,7 @@ public:
 		Triarea();
 	}
 
-	void printInfo(int w, int h) //오버 로딩
+	void printInfo(double w, double h) //오버 로딩
 	{
 		n_cm = w;
 		n_height = h;
