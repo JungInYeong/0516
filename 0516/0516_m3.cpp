@@ -41,5 +41,4 @@ void main()
 	rect.draw();
 	tri.draw();
 
-
 }
