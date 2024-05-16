@@ -66,7 +66,7 @@ void main()
 	Rectangle rect(3, 10);
 	rect.printInfo();
 	rect.Recarea();
-
+	cout << endl;
 	Triangle tri(4, 25);
 	tri.printInfo();
 	tri.Triarea();
