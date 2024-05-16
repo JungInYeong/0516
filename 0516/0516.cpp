@@ -1,10 +1,9 @@
-// ½Ç½À 1 »ó¼Ó »ç¿ëÇØº¸±â
+ï»¿// ì‹¤ìŠµ 1 ìƒì† ì‚¬ìš©í•´ë³´ê¸°
 #include <iostream>
 using namespace std;
 
 class Shape
 {
-	
 
 public:
 	int n_num;
@@ -18,11 +17,9 @@ public:
 
 	void printInfo()
 	{
-		cout << "º¯ÀÇ °³¼ö : " << n_num << endl;
-		cout << "¹Øº¯ÀÇ ±æÀÌ : " << n_cm << endl;
+		cout << "ë³€ì˜ ê°œìˆ˜ : " << n_num << endl;
+		cout << "ë°‘ë³€ì˜ ê¸¸ì´ : " << n_cm << endl;
 	}
-
-	
 };
 
 class Rectangle : public Shape
@@ -37,9 +34,8 @@ public:
 	}
 	void Recarea()
 	{
-		cout << "»ç°¢Çü ³ĞÀÌ : " << n_cm * n_length << endl;
+		cout << "ì‚¬ê°í˜• ë„“ì´ : " << n_cm * n_length << endl;
 	}
-
 };
 
 class Triangle : public Shape
@@ -56,9 +52,8 @@ public:
 
 	void Triarea()
 	{
-		cout << "»ï°¢Çü ³ĞÀÌ : " << (n_cm * n_height) / 2 << endl;
+		cout << "ì‚¼ê°í˜• ë„“ì´ : " << (n_cm * n_height) / 2 << endl;
 	}
-
 };
 
 void main()
