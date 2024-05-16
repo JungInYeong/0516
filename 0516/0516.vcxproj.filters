@@ -24,5 +24,8 @@
     <ClCompile Include="0516_m2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0516_m3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

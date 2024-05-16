@@ -71,13 +71,13 @@ public:
 		cout << "삼각형 넓이 : " << (n_cm * n_height) / 2 << endl;
 	}
 
-	void printInfo() //오버라이딩
+	void printInfo() //오버라이딩 - 상속, 부모 메소드, 출력 입력 이름 같아야함
 	{
 		Shape::printInfo();
 		Triarea();
 	}
 
-	void printInfo(double w, double h) //오버 로딩
+	void printInfo(double w, double h) //오버 로딩 - 메소드 식별자, 출력, 입력(x)
 	{
 		n_cm = w;
 		n_height = h;
