@@ -12,7 +12,7 @@ protected :
 class Circle : public Shape
 {
 public:
-	void draw() { cout << "원" << endl; }
+	void draw() override { cout << "원" << endl; }
 
 };
 
@@ -20,14 +20,14 @@ class Rect : public Shape
 {
 public :
 
-	void draw() { cout << "사각형" << endl; }
+	void draw() override { cout << "사각형" << endl; }
 
 };
 
 class Triangle : public Shape
 {
 public :
-	void draw() { cout << "삼각형" << endl; }
+	void draw() override { cout << "삼각형" << endl; }
 
 };
 
