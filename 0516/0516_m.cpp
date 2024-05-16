@@ -1,4 +1,4 @@
-// 실습 1 상속 사용해보기
+// 실습 2 상속 사용해보기
 #include <iostream>
 using namespace std;
 
